@@ -1,0 +1,88 @@
+main {
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+#first_section {
+    background-color: #F0EBE7;
+    padding: 2rem;
+}
+
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+ul {
+    padding-left: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col_side a {
+    color: #b6bac1;
+}
+
+/*LINKS TIL BILAG*/
+.col_txt a {
+    color: #b6bac1;
+    font-weight: bold;
+}
+
+.col_txt a:hover {
+    color: black;
+}
+
+.col_side a:hover {
+    color: black;
+}
+
+/*----------------*/
+
+.button a:hover {
+    color: black;
+}
+
+.center {
+    text-align: center;
+    padding: 2rem;
+    color: #b6bac1;
+    font-style: italic;
+}
+
+#end_section .section_wrapper .button {
+    background-color: #b6bac1;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    main img:hover {
+        opacity: 0.9;
+    }
+
+    main {
+        padding: 10rem;
+    }
+
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    #end_section .section_wrapper {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #design_line {
+        display: none;
+    }
+}
